@@ -27,6 +27,10 @@ public class session2 {
 		System.out.println(urlname);
 		System.out.println(username);
 	}
+	
+	public void gitMetheod() {
+		System.out.println("First edit method By Gitstuff user");
+	}
 //	@DataProvider
 //	public Object[][] getdata() {
 //		Object[][] data =new Object[3][2];
