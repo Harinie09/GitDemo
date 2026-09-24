@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-07-28T15:41:28 IST" name="Suite" finished-at="2026-07-28T15:41:28 IST" duration-ms="225">
+    <groups>
+      <group name="smoke">
+        <method signature="session1.print()[pri:0, instance:testing.session1@185a6e9]" name="print" class="testing.session1"/>
+        <method signature="session2.print3()[pri:0, instance:testing.session2@1fa121e2]" name="print3" class="testing.session2"/>
+        <method signature="session4.playwrightTesting()[pri:0, instance:testing.session4@7eac9008]" name="playwrightTesting" class="testing.session4"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2026-07-28T15:41:28 IST" name="Test" finished-at="2026-07-28T15:41:28 IST" duration-ms="225">
+      <class name="testing.session2">
+        <test-method is-config="true" signature="printBefore()[pri:0, instance:testing.session2@1fa121e2]" started-at="2026-07-28T15:41:28 IST" name="printBefore" finished-at="2026-07-28T15:41:28 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printBefore -->
+        <test-method signature="print3()[pri:0, instance:testing.session2@1fa121e2]" started-at="2026-07-28T15:41:28 IST" name="print3" finished-at="2026-07-28T15:41:28 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- print3 -->
+        <test-method signature="print4(java.lang.String,java.lang.String)[pri:0, instance:testing.session2@1fa121e2]" started-at="2026-07-28T15:41:28 IST" name="print4" finished-at="2026-07-28T15:41:28 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.google.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Harini@09]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- print4 -->
+        <test-method is-config="true" signature="AfrSuite()[pri:0, instance:testing.session2@1fa121e2]" started-at="2026-07-28T15:41:28 IST" name="AfrSuite" finished-at="2026-07-28T15:41:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfrSuite -->
+      </class> <!-- testing.session2 -->
+      <class name="testing.session1">
+        <test-method is-config="true" signature="BfeSuite()[pri:0, instance:testing.session1@185a6e9]" started-at="2026-07-28T15:41:27 IST" name="BfeSuite" finished-at="2026-07-28T15:41:28 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BfeSuite -->
+        <test-method is-config="true" signature="bfrTest2(java.lang.String)[pri:0, instance:testing.session1@185a6e9]" started-at="2026-07-28T15:41:28 IST" name="bfrTest2" finished-at="2026-07-28T15:41:28 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.google.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfrTest2 -->
+        <test-method signature="print()[pri:0, instance:testing.session1@185a6e9]" started-at="2026-07-28T15:41:28 IST" name="print" finished-at="2026-07-28T15:41:28 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- print -->
+        <test-method signature="print2()[pri:0, instance:testing.session1@185a6e9]" started-at="2026-07-28T15:41:28 IST" name="print2" finished-at="2026-07-28T15:41:28 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- print2 -->
+        <test-method is-config="true" signature="printAfterTest()[pri:0, instance:testing.session1@185a6e9]" started-at="2026-07-28T15:41:28 IST" name="printAfterTest" finished-at="2026-07-28T15:41:28 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printAfterTest -->
+      </class> <!-- testing.session1 -->
+      <class name="testing.session4">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testing.session4@7eac9008]" started-at="2026-07-28T15:41:28 IST" name="beforeMethod" finished-at="2026-07-28T15:41:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="playwrightTesting()[pri:0, instance:testing.session4@7eac9008]" started-at="2026-07-28T15:41:28 IST" name="playwrightTesting" finished-at="2026-07-28T15:41:28 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- playwrightTesting -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testing.session4@7eac9008]" started-at="2026-07-28T15:41:28 IST" name="beforeMethod" finished-at="2026-07-28T15:41:28 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="seleniumTesting()[pri:0, instance:testing.session4@7eac9008]" started-at="2026-07-28T15:41:28 IST" name="seleniumTesting" finished-at="2026-07-28T15:41:28 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seleniumTesting -->
+      </class> <!-- testing.session4 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
