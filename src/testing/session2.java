@@ -30,6 +30,7 @@ public class session2 {
 	
 	public void gitMetheod() {
 		System.out.println("First edit method By Gitstuff user");
+		System.out.println(" only in develope");
 	}
 //	@DataProvider
 //	public Object[][] getdata() {
